@@ -1,0 +1,6 @@
+names:
+- Smoke:
+train: /mnt/myhdd/hiepqn/data/YOLO11/Train
+test: /mnt/myhdd/hiepqn/data/YOLO11/Val
+val: /mnt/myhdd/hiepqn/data/YOLO11/Val
+nc: 1
