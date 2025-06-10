@@ -1,5 +1,6 @@
 Train/
 Pre_data/
+report/
 
 Visualize.py
 APIFlask.py
