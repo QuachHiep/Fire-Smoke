@@ -1,78 +1,76 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Application\\DemoFire\\",
+  "WorkspaceRootPath": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|D:\\Application\\DemoFire\\demofire\\usercontrol\\userctrldisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|solutionrelative:demofire\\usercontrol\\userctrldisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|d:\\application\\demofire\\demofire\\class\\twiliosmsexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|solutionrelative:demofire\\class\\twiliosmsexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|D:\\Application\\DemoFire\\demofire\\usercontrol\\userctrldisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|solutionrelative:demofire\\usercontrol\\userctrldisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|d:\\application\\demofire\\demofire\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|solutionrelative:demofire\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|D:\\Application\\DemoFire\\demofire\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|solutionrelative:demofire\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|D:\\Application\\DemoFire\\demofire\\formparamcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|solutionrelative:demofire\\formparamcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|D:\\Application\\DemoFire\\demofire\\class\\classcommon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|solutionrelative:demofire\\class\\classcommon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|D:\\Application\\DemoFire\\demofire\\formcameralist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|solutionrelative:demofire\\formcameralist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|D:\\Application\\DemoFire\\demofire\\usercontrol\\measurerecipe2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|solutionrelative:demofire\\usercontrol\\measurerecipe2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|D:\\Application\\DemoFire\\demofire\\usercontrol\\measurerecipe2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\demofire\\usercontrol\\measurerecipe2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|solutionrelative:demofire\\usercontrol\\measurerecipe2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|D:\\Application\\DemoFire\\demofire\\formlogview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|solutionrelative:demofire\\formlogview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\demofire\\usercontrol\\measurerecipe2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|solutionrelative:demofire\\usercontrol\\measurerecipe2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|D:\\Application\\DemoFire\\demofire\\formcameralist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|d:\\deeplearning\\working\\fire-smoke-detection\\source\\demofire\\config\\classsystemconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|solutionrelative:demofire\\config\\classsystemconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\demofire\\formparamcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|solutionrelative:demofire\\formparamcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\demofire\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|solutionrelative:demofire\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|d:\\deeplearning\\working\\fire-smoke-detection\\source\\demofire\\formcameralist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|solutionrelative:demofire\\formcameralist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|d:\\deeplearning\\working\\fire-smoke-detection\\source\\demofire\\formcameralist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|solutionrelative:demofire\\formcameralist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|D:\\Application\\DemoFire\\demofire\\formparamcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|solutionrelative:demofire\\formparamcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\demofire\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|solutionrelative:demofire\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|D:\\Application\\DemoFire\\demofire\\formlogview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|d:\\deeplearning\\working\\fire-smoke-detection\\source\\demofire\\usercontrol\\userctrldisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|solutionrelative:demofire\\usercontrol\\userctrldisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\demofire\\usercontrol\\userctrldisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|solutionrelative:demofire\\usercontrol\\userctrldisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|DemoFire||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\demofire\\class\\classcommon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|solutionrelative:demofire\\class\\classcommon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\demofire\\formlogview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|solutionrelative:demofire\\formlogview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\demofire\\formlogview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|solutionrelative:demofire\\formlogview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|D:\\Application\\DemoFire\\demofire\\formsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\demofire\\formsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|solutionrelative:demofire\\formsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|D:\\Application\\DemoFire\\demofire\\class\\classfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\demofire\\class\\classfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|solutionrelative:demofire\\class\\classfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|D:\\Application\\DemoFire\\demofire\\class\\classvideocapture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\demofire\\class\\classvideocapture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|solutionrelative:demofire\\class\\classvideocapture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|D:\\Application\\DemoFire\\demofire\\formsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|solutionrelative:demofire\\formsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{901FA391-EDA1-445A-8EFB-112FCB4849B7}|DemoFire\\DemoFire.csproj|d:\\deeplearning\\working\\fire-smoke-detection\\source\\demofire\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|a54ad834-9219-4aa6-b589-607af21c3e26"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,17 +80,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\Application\\DemoFire\\DemoFire\\Form1.cs",
+              "DocumentMoniker": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\DemoFire\\Form1.cs",
               "RelativeDocumentMoniker": "DemoFire\\Form1.cs",
-              "ToolTip": "D:\\Application\\DemoFire\\DemoFire\\Form1.cs",
+              "ToolTip": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\DemoFire\\Form1.cs",
               "RelativeToolTip": "DemoFire\\Form1.cs",
-              "ViewState": "AgIAAF8BAAAAAAAAAAAUwHwBAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAABEBAAAAAAAAAAAawDgCAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T08:54:26.324Z",
               "IsPinned": true,
@@ -101,50 +99,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TwilioSMSExample.cs",
-              "DocumentMoniker": "D:\\Application\\DemoFire\\DemoFire\\Class\\TwilioSMSExample.cs",
-              "RelativeDocumentMoniker": "DemoFire\\Class\\TwilioSMSExample.cs",
-              "ToolTip": "D:\\Application\\DemoFire\\DemoFire\\Class\\TwilioSMSExample.cs",
-              "RelativeToolTip": "DemoFire\\Class\\TwilioSMSExample.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
+              "Title": "MeasureRecipe2.cs",
+              "DocumentMoniker": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\DemoFire\\UserControl\\MeasureRecipe2.cs",
+              "RelativeDocumentMoniker": "DemoFire\\UserControl\\MeasureRecipe2.cs",
+              "ToolTip": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\DemoFire\\UserControl\\MeasureRecipe2.cs",
+              "RelativeToolTip": "DemoFire\\UserControl\\MeasureRecipe2.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAmwCQAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T06:06:31.42Z",
+              "WhenOpened": "2025-05-09T04:37:18.495Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FormCameraList.cs",
-              "DocumentMoniker": "D:\\Application\\DemoFire\\DemoFire\\FormCameraList.cs",
-              "RelativeDocumentMoniker": "DemoFire\\FormCameraList.cs",
-              "ToolTip": "D:\\Application\\DemoFire\\DemoFire\\FormCameraList.cs",
-              "RelativeToolTip": "DemoFire\\FormCameraList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T07:58:18.546Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\Application\\DemoFire\\DemoFire\\Form1.cs",
-              "RelativeDocumentMoniker": "DemoFire\\Form1.cs",
-              "ToolTip": "D:\\Application\\DemoFire\\DemoFire\\Form1.cs [Design]",
-              "RelativeToolTip": "DemoFire\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T06:50:36.523Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "FormParamCamera.cs",
-              "DocumentMoniker": "D:\\Application\\DemoFire\\DemoFire\\FormParamCamera.cs",
+              "DocumentMoniker": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\DemoFire\\FormParamCamera.cs",
               "RelativeDocumentMoniker": "DemoFire\\FormParamCamera.cs",
-              "ToolTip": "D:\\Application\\DemoFire\\DemoFire\\FormParamCamera.cs",
+              "ToolTip": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\DemoFire\\FormParamCamera.cs",
               "RelativeToolTip": "DemoFire\\FormParamCamera.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAvwBsAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T02:13:46.212Z",
               "EditorCaption": ""
@@ -152,48 +125,36 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserCtrlDisplay.cs [Design]",
-              "DocumentMoniker": "D:\\Application\\DemoFire\\DemoFire\\UserControl\\UserCtrlDisplay.cs",
-              "RelativeDocumentMoniker": "DemoFire\\UserControl\\UserCtrlDisplay.cs",
-              "ToolTip": "D:\\Application\\DemoFire\\DemoFire\\UserControl\\UserCtrlDisplay.cs [Design]",
-              "RelativeToolTip": "DemoFire\\UserControl\\UserCtrlDisplay.cs [Design]",
+              "Title": "ClassSystemConfig.cs",
+              "DocumentMoniker": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\DemoFire\\Config\\ClassSystemConfig.cs",
+              "RelativeDocumentMoniker": "DemoFire\\Config\\ClassSystemConfig.cs",
+              "ToolTip": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\DemoFire\\Config\\ClassSystemConfig.cs",
+              "RelativeToolTip": "DemoFire\\Config\\ClassSystemConfig.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAlwB4AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T07:07:03.7Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-10T02:21:17.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormCameraList.cs",
+              "DocumentMoniker": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\DemoFire\\FormCameraList.cs",
+              "RelativeDocumentMoniker": "DemoFire\\FormCameraList.cs",
+              "ToolTip": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\DemoFire\\FormCameraList.cs",
+              "RelativeToolTip": "DemoFire\\FormCameraList.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T02:21:55.394Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserCtrlDisplay.cs",
-              "DocumentMoniker": "D:\\Application\\DemoFire\\DemoFire\\UserControl\\UserCtrlDisplay.cs",
-              "RelativeDocumentMoniker": "DemoFire\\UserControl\\UserCtrlDisplay.cs",
-              "ToolTip": "D:\\Application\\DemoFire\\DemoFire\\UserControl\\UserCtrlDisplay.cs",
-              "RelativeToolTip": "DemoFire\\UserControl\\UserCtrlDisplay.cs",
-              "ViewState": "AgIAAPkCAAAAAAAAAAAWwAEDAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T07:07:06.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MeasureRecipe2.cs",
-              "DocumentMoniker": "D:\\Application\\DemoFire\\DemoFire\\UserControl\\MeasureRecipe2.cs",
-              "RelativeDocumentMoniker": "DemoFire\\UserControl\\MeasureRecipe2.cs",
-              "ToolTip": "D:\\Application\\DemoFire\\DemoFire\\UserControl\\MeasureRecipe2.cs",
-              "RelativeToolTip": "DemoFire\\UserControl\\MeasureRecipe2.cs",
-              "ViewState": "AgIAAJIBAAAAAAAAAAAqwLEBAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T04:37:18.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "MeasureRecipe2.cs [Design]",
-              "DocumentMoniker": "D:\\Application\\DemoFire\\DemoFire\\UserControl\\MeasureRecipe2.cs",
+              "DocumentMoniker": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\DemoFire\\UserControl\\MeasureRecipe2.cs",
               "RelativeDocumentMoniker": "DemoFire\\UserControl\\MeasureRecipe2.cs",
-              "ToolTip": "D:\\Application\\DemoFire\\DemoFire\\UserControl\\MeasureRecipe2.cs [Design]",
+              "ToolTip": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\DemoFire\\UserControl\\MeasureRecipe2.cs [Design]",
               "RelativeToolTip": "DemoFire\\UserControl\\MeasureRecipe2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T09:31:50.579Z",
@@ -202,85 +163,118 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ClassCommon.cs",
-              "DocumentMoniker": "D:\\Application\\DemoFire\\DemoFire\\Class\\ClassCommon.cs",
-              "RelativeDocumentMoniker": "DemoFire\\Class\\ClassCommon.cs",
-              "ToolTip": "D:\\Application\\DemoFire\\DemoFire\\Class\\ClassCommon.cs",
-              "RelativeToolTip": "DemoFire\\Class\\ClassCommon.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAywDwAAAAWAAAAAAAAAA==",
+              "Title": "FormCameraList.cs [Design]",
+              "DocumentMoniker": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\DemoFire\\FormCameraList.cs",
+              "RelativeDocumentMoniker": "DemoFire\\FormCameraList.cs",
+              "ToolTip": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\DemoFire\\FormCameraList.cs [Design]",
+              "RelativeToolTip": "DemoFire\\FormCameraList.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T04:25:20.2Z",
+              "WhenOpened": "2025-06-10T02:21:53.83Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\DemoFire\\Form1.cs",
+              "RelativeDocumentMoniker": "DemoFire\\Form1.cs",
+              "ToolTip": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\DemoFire\\Form1.cs [Design]",
+              "RelativeToolTip": "DemoFire\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T06:50:36.523Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserCtrlDisplay.cs",
+              "DocumentMoniker": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\DemoFire\\UserControl\\UserCtrlDisplay.cs",
+              "RelativeDocumentMoniker": "DemoFire\\UserControl\\UserCtrlDisplay.cs",
+              "ToolTip": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\DemoFire\\UserControl\\UserCtrlDisplay.cs",
+              "RelativeToolTip": "DemoFire\\UserControl\\UserCtrlDisplay.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAQwEAAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T07:07:06.41Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "FormLogView.cs",
-              "DocumentMoniker": "D:\\Application\\DemoFire\\DemoFire\\FormLogView.cs",
-              "RelativeDocumentMoniker": "DemoFire\\FormLogView.cs",
-              "ToolTip": "D:\\Application\\DemoFire\\DemoFire\\FormLogView.cs",
-              "RelativeToolTip": "DemoFire\\FormLogView.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAAD4AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T04:57:48.786Z",
+              "Title": "DemoFire",
+              "DocumentMoniker": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\DemoFire\\DemoFire.csproj",
+              "RelativeDocumentMoniker": "DemoFire\\DemoFire.csproj",
+              "ToolTip": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\DemoFire\\DemoFire.csproj",
+              "RelativeToolTip": "DemoFire\\DemoFire.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-10T01:38:49.025Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "FormCameraList.cs [Design]",
-              "DocumentMoniker": "D:\\Application\\DemoFire\\DemoFire\\FormCameraList.cs",
-              "RelativeDocumentMoniker": "DemoFire\\FormCameraList.cs",
-              "ToolTip": "D:\\Application\\DemoFire\\DemoFire\\FormCameraList.cs [Design]",
-              "RelativeToolTip": "DemoFire\\FormCameraList.cs [Design]",
+              "DocumentIndex": 9,
+              "Title": "UserCtrlDisplay.cs [Design]",
+              "DocumentMoniker": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\DemoFire\\UserControl\\UserCtrlDisplay.cs",
+              "RelativeDocumentMoniker": "DemoFire\\UserControl\\UserCtrlDisplay.cs",
+              "ToolTip": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\DemoFire\\UserControl\\UserCtrlDisplay.cs [Design]",
+              "RelativeToolTip": "DemoFire\\UserControl\\UserCtrlDisplay.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T08:06:19.679Z",
+              "WhenOpened": "2025-05-05T07:07:03.7Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "FormParamCamera.cs [Design]",
-              "DocumentMoniker": "D:\\Application\\DemoFire\\DemoFire\\FormParamCamera.cs",
-              "RelativeDocumentMoniker": "DemoFire\\FormParamCamera.cs",
-              "ToolTip": "D:\\Application\\DemoFire\\DemoFire\\FormParamCamera.cs [Design]",
-              "RelativeToolTip": "DemoFire\\FormParamCamera.cs [Design]",
+              "DocumentIndex": 11,
+              "Title": "ClassCommon.cs",
+              "DocumentMoniker": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\DemoFire\\Class\\ClassCommon.cs",
+              "RelativeDocumentMoniker": "DemoFire\\Class\\ClassCommon.cs",
+              "ToolTip": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\DemoFire\\Class\\ClassCommon.cs",
+              "RelativeToolTip": "DemoFire\\Class\\ClassCommon.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAywDwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T02:55:22.852Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-05T04:25:20.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FormLogView.cs",
+              "DocumentMoniker": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\DemoFire\\FormLogView.cs",
+              "RelativeDocumentMoniker": "DemoFire\\FormLogView.cs",
+              "ToolTip": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\DemoFire\\FormLogView.cs",
+              "RelativeToolTip": "DemoFire\\FormLogView.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAAD4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T04:57:48.786Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "ClassFunction.cs",
-              "DocumentMoniker": "D:\\Application\\DemoFire\\DemoFire\\Class\\ClassFunction.cs",
+              "DocumentMoniker": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\DemoFire\\Class\\ClassFunction.cs",
               "RelativeDocumentMoniker": "DemoFire\\Class\\ClassFunction.cs",
-              "ToolTip": "D:\\Application\\DemoFire\\DemoFire\\Class\\ClassFunction.cs",
+              "ToolTip": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\DemoFire\\Class\\ClassFunction.cs",
               "RelativeToolTip": "DemoFire\\Class\\ClassFunction.cs",
               "ViewState": "AgIAAFMAAAAAAAAAAADwv1oAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T04:21:54.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T04:21:54.949Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "FormLogView.cs [Design]",
-              "DocumentMoniker": "D:\\Application\\DemoFire\\DemoFire\\FormLogView.cs",
+              "DocumentMoniker": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\DemoFire\\FormLogView.cs",
               "RelativeDocumentMoniker": "DemoFire\\FormLogView.cs",
               "ToolTip": "D:\\Application\\DemoFire\\DemoFire\\FormLogView.cs [Design]",
-              "RelativeToolTip": "DemoFire\\FormLogView.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\Application\\DemoFire\\DemoFire\\FormLogView.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T04:36:42.717Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-05T04:36:42.717Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "FormSetting.cs",
-              "DocumentMoniker": "D:\\Application\\DemoFire\\DemoFire\\FormSetting.cs",
+              "DocumentMoniker": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\DemoFire\\FormSetting.cs",
               "RelativeDocumentMoniker": "DemoFire\\FormSetting.cs",
-              "ToolTip": "D:\\Application\\DemoFire\\DemoFire\\FormSetting.cs",
+              "ToolTip": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\DemoFire\\FormSetting.cs",
               "RelativeToolTip": "DemoFire\\FormSetting.cs",
               "ViewState": "AgIAAMEAAAAAAAAAAAArwMkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -291,26 +285,13 @@
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "ClassVideoCapture.cs",
-              "DocumentMoniker": "D:\\Application\\DemoFire\\DemoFire\\Class\\ClassVideoCapture.cs",
+              "DocumentMoniker": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\DemoFire\\Class\\ClassVideoCapture.cs",
               "RelativeDocumentMoniker": "DemoFire\\Class\\ClassVideoCapture.cs",
-              "ToolTip": "D:\\Application\\DemoFire\\DemoFire\\Class\\ClassVideoCapture.cs",
+              "ToolTip": "D:\\DeepLearning\\Working\\fire-smoke-detection\\Source\\DemoFire\\Class\\ClassVideoCapture.cs",
               "RelativeToolTip": "DemoFire\\Class\\ClassVideoCapture.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAwwE8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T01:30:19.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "FormSetting.cs [Design]",
-              "DocumentMoniker": "D:\\Application\\DemoFire\\DemoFire\\FormSetting.cs",
-              "RelativeDocumentMoniker": "DemoFire\\FormSetting.cs",
-              "ToolTip": "D:\\Application\\DemoFire\\DemoFire\\FormSetting.cs [Design]",
-              "RelativeToolTip": "DemoFire\\FormSetting.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T08:17:22.543Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-05T01:30:19.128Z"
             }
           ]
         }

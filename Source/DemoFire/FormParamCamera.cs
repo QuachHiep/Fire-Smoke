@@ -14,14 +14,16 @@ namespace DemoFire
     public partial class FormParamCamera : Form
     {
         bool bLastStateNormal = false;
+        Form1 main;
         public FormParamCamera()
         {
             InitializeComponent();
         }
 
-        public void Innit()
+        public void Innit(Form1 obj)
         {
-            ClassSystemConfig.Ins.m_SettingParam.InitPageSetup(0, "SETTING");
+            main = obj;
+            ClassSystemConfig.Ins.m_SettingParam.InitPageSetup(obj, 0, "SETTING");
             panelMain.Controls.Clear();
             panelMain.Controls.Add(ClassSystemConfig.Ins.m_SettingParam);
             ClassSystemConfig.Ins.m_SettingParam.Dock = DockStyle.Fill;
@@ -37,7 +39,6 @@ namespace DemoFire
         }
         private void FormParamCamera_Load(object sender, EventArgs e)
         {
-            Innit();
         }
 
         private void btnMinimize_Click(object sender, EventArgs e)

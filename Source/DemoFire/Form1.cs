@@ -25,8 +25,8 @@ namespace DemoFire
     public partial class Form1 : Form
     {
         Thread m_ThreadUpdate;
-        private int Col = 2;
-        private int Row = 2;
+        public int Col = 2;
+        public int Row = 2;
 
         MySqlConnection connection = new MySqlConnection(ClassSystemConfig.Ins.m_ClsCommon.connectionString);
 
@@ -542,6 +542,9 @@ namespace DemoFire
             ClassSystemConfig.Ins.m_FrmLogin.InitializeUI(this);
             ClassSystemConfig.Ins.m_FrmSetting.InitializeUI(this);
             ClassSystemConfig.Ins.m_CameraList.InitializeUI(this);
+            ClassSystemConfig.Ins.m_FrmParamCamera.Innit(this);
+            //ClassSystemConfig.Ins.m_SettingParam.InitPageSetup(this, 0, "SETTING");
+
         }
         
         #endregion

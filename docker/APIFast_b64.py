@@ -12,8 +12,8 @@ from typing import List
 app = FastAPI(name = "fire")
 
 # Load mô hình YOLO
-model = YOLO("best.engine")
-#model.to(device="cuda")  # Chuyển mô hình sang GPU nếu có
+model = YOLO("best.pt")
+model.to(device="cuda")  # Chuyển mô hình sang GPU nếu có
 
 # Mô hình dữ liệu nhận ảnh Base64 từ C#
 class ImageData(BaseModel):
@@ -37,7 +37,7 @@ async def predict(data: ImageData):
         print(f"Image size: {img.size}")
         
         # Dự đoán bằng YOLO
-        results = list(model(img, stream=True, imgsz=1280, device="cuda"))  # Dự đoán với kích thước 1280 và ngưỡng confidence 0.5
+        results = list(model(img, stream=True, imgsz=1280))  # Dự đoán với kích thước 1280 và ngưỡng confidence 0.5
         #results = model.predict()
         
         detections = []

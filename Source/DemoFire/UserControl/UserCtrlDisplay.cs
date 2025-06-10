@@ -74,16 +74,16 @@ namespace DKVN
             lbIndexControl.Text = (indexCtrl >= 0) ? ((indexCtrl + 1).ToString()) : "";
             lbIndexControl.ForeColor = (Color.DodgerBlue);
             main = obj;
-            m_bInitSDK = CHCNetSDK.NET_DVR_Init();
-            if (m_bInitSDK == false)
-            {
-                MessageBox.Show("NET_DVR_Init error!");
-                return;
-            }
-            else
-            {
-                CHCNetSDK.NET_DVR_SetLogToFile(3, "C:\\SdkLog\\", true);
-            }
+            //m_bInitSDK = CHCNetSDK.NET_DVR_Init();
+            //if (m_bInitSDK == false)
+            //{
+            //    MessageBox.Show("NET_DVR_Init error!");
+            //    return;
+            //}
+            //else
+            //{
+            //    CHCNetSDK.NET_DVR_SetLogToFile(3, "C:\\SdkLog\\", true);
+            //}
         }
         private void UserCtrlDisplay_Load(object sender, EventArgs e)
         {
@@ -1291,7 +1291,6 @@ namespace DKVN
             }
         }
         #endregion
-
 
     }
 }

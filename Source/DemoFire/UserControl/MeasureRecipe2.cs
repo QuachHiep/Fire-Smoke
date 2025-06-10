@@ -23,6 +23,7 @@ using System.Threading;
 using Cognex.VisionPro.Display;
 using Org.BouncyCastle.Utilities.Collections;
 using System.Data.SqlClient;
+using DemoFire;
 
 namespace DKVN
 {
@@ -39,6 +40,8 @@ namespace DKVN
         MySqlConnection connection;
         HttpClient client = new HttpClient();
 
+        private Form1 main;
+
         #endregion
 
         public MeasureRecipe2()
@@ -46,9 +49,10 @@ namespace DKVN
             InitializeComponent();
             SetOutputView();
         }
-        public void InitPageSetup(int index, string title = "")
+        public void InitPageSetup(Form1 obj ,int index, string title = "")
         {
             lbTitleName.Text = (title.Trim() != "") ? title : "SETTING";
+            main = obj;
             m_IndexRecipe = index;
             RefreshSetupUI();
 
@@ -743,6 +747,13 @@ namespace DKVN
         private void MeasureRecipe2_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnConfigScreen_Click(object sender, EventArgs e)
+        {
+            main.Col = Convert.ToInt32(numColCam.Value);
+            main.Row = Convert.ToInt32(numRowCam.Value);
+            main.LayoutSpreadView();
         }
     }
 

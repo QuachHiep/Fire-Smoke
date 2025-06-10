@@ -30,11 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MeasureRecipe2));
             this.panelPage1Setting = new System.Windows.Forms.Panel();
-            this.panelBaseTool = new System.Windows.Forms.Panel();
-            this.dgviewCamera = new System.Windows.Forms.DataGridView();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.btnRefreshRecipe = new System.Windows.Forms.Button();
-            this.btnAddToolBase = new System.Windows.Forms.Button();
             this.lbTitleName = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -74,10 +69,21 @@
             this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripRuntime = new System.Windows.Forms.ToolStripButton();
             this.mySqlDataAdapter1 = new MySql.Data.MySqlClient.MySqlDataAdapter();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panelBaseTool = new System.Windows.Forms.Panel();
+            this.dgviewCamera = new System.Windows.Forms.DataGridView();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.btnRefreshRecipe = new System.Windows.Forms.Button();
+            this.btnAddToolBase = new System.Windows.Forms.Button();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panelPCInfo = new System.Windows.Forms.Panel();
+            this.btnConfigScreen = new System.Windows.Forms.Button();
+            this.numRowCam = new System.Windows.Forms.NumericUpDown();
+            this.numColCam = new System.Windows.Forms.NumericUpDown();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.panelPage1Setting.SuspendLayout();
-            this.panelBaseTool.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgviewCamera)).BeginInit();
-            this.panel3.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -86,6 +92,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.numInterval)).BeginInit();
             this.panel2.SuspendLayout();
             this.toolStrip1.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panelBaseTool.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgviewCamera)).BeginInit();
+            this.panel4.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.panelPCInfo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numRowCam)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numColCam)).BeginInit();
             this.SuspendLayout();
             // 
             // panelPage1Setting
@@ -93,7 +108,7 @@
             this.panelPage1Setting.AutoScroll = true;
             this.panelPage1Setting.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.panelPage1Setting.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panelPage1Setting.Controls.Add(this.panelBaseTool);
+            this.panelPage1Setting.Controls.Add(this.tableLayoutPanel2);
             this.panelPage1Setting.Controls.Add(this.lbTitleName);
             this.panelPage1Setting.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelPage1Setting.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -101,75 +116,6 @@
             this.panelPage1Setting.Name = "panelPage1Setting";
             this.panelPage1Setting.Size = new System.Drawing.Size(236, 817);
             this.panelPage1Setting.TabIndex = 3;
-            // 
-            // panelBaseTool
-            // 
-            this.panelBaseTool.Controls.Add(this.dgviewCamera);
-            this.panelBaseTool.Controls.Add(this.panel3);
-            this.panelBaseTool.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelBaseTool.Location = new System.Drawing.Point(0, 32);
-            this.panelBaseTool.Name = "panelBaseTool";
-            this.panelBaseTool.Size = new System.Drawing.Size(234, 783);
-            this.panelBaseTool.TabIndex = 18;
-            // 
-            // dgviewCamera
-            // 
-            this.dgviewCamera.AllowUserToAddRows = false;
-            this.dgviewCamera.AllowUserToDeleteRows = false;
-            this.dgviewCamera.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgviewCamera.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgviewCamera.Location = new System.Drawing.Point(0, 40);
-            this.dgviewCamera.Margin = new System.Windows.Forms.Padding(0);
-            this.dgviewCamera.Name = "dgviewCamera";
-            this.dgviewCamera.ReadOnly = true;
-            this.dgviewCamera.RowHeadersVisible = false;
-            this.dgviewCamera.RowHeadersWidth = 51;
-            this.dgviewCamera.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgviewCamera.Size = new System.Drawing.Size(234, 743);
-            this.dgviewCamera.TabIndex = 1;
-            this.dgviewCamera.SelectionChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.btnRefreshRecipe);
-            this.panel3.Controls.Add(this.btnAddToolBase);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(234, 40);
-            this.panel3.TabIndex = 0;
-            // 
-            // btnRefreshRecipe
-            // 
-            this.btnRefreshRecipe.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnRefreshRecipe.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnRefreshRecipe.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnRefreshRecipe.FlatAppearance.BorderSize = 0;
-            this.btnRefreshRecipe.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
-            this.btnRefreshRecipe.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
-            this.btnRefreshRecipe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRefreshRecipe.Image = ((System.Drawing.Image)(resources.GetObject("btnRefreshRecipe.Image")));
-            this.btnRefreshRecipe.Location = new System.Drawing.Point(0, 0);
-            this.btnRefreshRecipe.Name = "btnRefreshRecipe";
-            this.btnRefreshRecipe.Size = new System.Drawing.Size(50, 40);
-            this.btnRefreshRecipe.TabIndex = 16;
-            this.btnRefreshRecipe.UseVisualStyleBackColor = false;
-            this.btnRefreshRecipe.Click += new System.EventHandler(this.btnRefreshRecipe_Click);
-            // 
-            // btnAddToolBase
-            // 
-            this.btnAddToolBase.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnAddToolBase.FlatAppearance.BorderSize = 0;
-            this.btnAddToolBase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAddToolBase.Image = ((System.Drawing.Image)(resources.GetObject("btnAddToolBase.Image")));
-            this.btnAddToolBase.Location = new System.Drawing.Point(71, 0);
-            this.btnAddToolBase.Name = "btnAddToolBase";
-            this.btnAddToolBase.Size = new System.Drawing.Size(163, 40);
-            this.btnAddToolBase.TabIndex = 1;
-            this.btnAddToolBase.Text = "Manager Camera";
-            this.btnAddToolBase.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.btnAddToolBase.UseVisualStyleBackColor = true;
-            this.btnAddToolBase.Click += new System.EventHandler(this.btnAddToolBase_Click);
             // 
             // lbTitleName
             // 
@@ -606,6 +552,199 @@
             this.mySqlDataAdapter1.SelectCommand = null;
             this.mySqlDataAdapter1.UpdateCommand = null;
             // 
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.ColumnCount = 1;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel2.Controls.Add(this.panel3, 0, 1);
+            this.tableLayoutPanel2.Controls.Add(this.panel5, 0, 0);
+            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 32);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 2;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 130F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(234, 783);
+            this.tableLayoutPanel2.TabIndex = 1;
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.panelBaseTool);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(3, 133);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(228, 647);
+            this.panel3.TabIndex = 0;
+            // 
+            // panelBaseTool
+            // 
+            this.panelBaseTool.Controls.Add(this.dgviewCamera);
+            this.panelBaseTool.Controls.Add(this.panel4);
+            this.panelBaseTool.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelBaseTool.Location = new System.Drawing.Point(0, 0);
+            this.panelBaseTool.Name = "panelBaseTool";
+            this.panelBaseTool.Size = new System.Drawing.Size(228, 647);
+            this.panelBaseTool.TabIndex = 20;
+            // 
+            // dgviewCamera
+            // 
+            this.dgviewCamera.AllowUserToAddRows = false;
+            this.dgviewCamera.AllowUserToDeleteRows = false;
+            this.dgviewCamera.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgviewCamera.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgviewCamera.Location = new System.Drawing.Point(0, 40);
+            this.dgviewCamera.Margin = new System.Windows.Forms.Padding(0);
+            this.dgviewCamera.Name = "dgviewCamera";
+            this.dgviewCamera.ReadOnly = true;
+            this.dgviewCamera.RowHeadersVisible = false;
+            this.dgviewCamera.RowHeadersWidth = 51;
+            this.dgviewCamera.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgviewCamera.Size = new System.Drawing.Size(228, 607);
+            this.dgviewCamera.TabIndex = 1;
+            // 
+            // panel4
+            // 
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel4.Controls.Add(this.btnRefreshRecipe);
+            this.panel4.Controls.Add(this.btnAddToolBase);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(228, 40);
+            this.panel4.TabIndex = 0;
+            // 
+            // btnRefreshRecipe
+            // 
+            this.btnRefreshRecipe.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnRefreshRecipe.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnRefreshRecipe.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnRefreshRecipe.FlatAppearance.BorderSize = 0;
+            this.btnRefreshRecipe.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
+            this.btnRefreshRecipe.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btnRefreshRecipe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRefreshRecipe.Image = ((System.Drawing.Image)(resources.GetObject("btnRefreshRecipe.Image")));
+            this.btnRefreshRecipe.Location = new System.Drawing.Point(0, 0);
+            this.btnRefreshRecipe.Name = "btnRefreshRecipe";
+            this.btnRefreshRecipe.Size = new System.Drawing.Size(50, 38);
+            this.btnRefreshRecipe.TabIndex = 16;
+            this.btnRefreshRecipe.UseVisualStyleBackColor = false;
+            // 
+            // btnAddToolBase
+            // 
+            this.btnAddToolBase.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnAddToolBase.FlatAppearance.BorderSize = 0;
+            this.btnAddToolBase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddToolBase.Image = ((System.Drawing.Image)(resources.GetObject("btnAddToolBase.Image")));
+            this.btnAddToolBase.Location = new System.Drawing.Point(63, 0);
+            this.btnAddToolBase.Name = "btnAddToolBase";
+            this.btnAddToolBase.Size = new System.Drawing.Size(163, 38);
+            this.btnAddToolBase.TabIndex = 1;
+            this.btnAddToolBase.Text = "Manager Camera";
+            this.btnAddToolBase.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnAddToolBase.UseVisualStyleBackColor = true;
+            // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.panelPCInfo);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel5.Location = new System.Drawing.Point(3, 3);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(228, 124);
+            this.panel5.TabIndex = 1;
+            // 
+            // panelPCInfo
+            // 
+            this.panelPCInfo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelPCInfo.Controls.Add(this.btnConfigScreen);
+            this.panelPCInfo.Controls.Add(this.numRowCam);
+            this.panelPCInfo.Controls.Add(this.numColCam);
+            this.panelPCInfo.Controls.Add(this.label4);
+            this.panelPCInfo.Controls.Add(this.label5);
+            this.panelPCInfo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelPCInfo.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panelPCInfo.Location = new System.Drawing.Point(0, 0);
+            this.panelPCInfo.Name = "panelPCInfo";
+            this.panelPCInfo.Size = new System.Drawing.Size(228, 124);
+            this.panelPCInfo.TabIndex = 40;
+            // 
+            // btnConfigScreen
+            // 
+            this.btnConfigScreen.Location = new System.Drawing.Point(126, 84);
+            this.btnConfigScreen.Name = "btnConfigScreen";
+            this.btnConfigScreen.Size = new System.Drawing.Size(95, 30);
+            this.btnConfigScreen.TabIndex = 53;
+            this.btnConfigScreen.Text = "Config Cam";
+            this.btnConfigScreen.UseVisualStyleBackColor = true;
+            this.btnConfigScreen.Click += new System.EventHandler(this.btnConfigScreen_Click);
+            // 
+            // numRowCam
+            // 
+            this.numRowCam.Location = new System.Drawing.Point(101, 44);
+            this.numRowCam.Maximum = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
+            this.numRowCam.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numRowCam.Name = "numRowCam";
+            this.numRowCam.Size = new System.Drawing.Size(120, 24);
+            this.numRowCam.TabIndex = 52;
+            this.numRowCam.Value = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            // 
+            // numColCam
+            // 
+            this.numColCam.Location = new System.Drawing.Point(101, 11);
+            this.numColCam.Maximum = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
+            this.numColCam.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numColCam.Name = "numColCam";
+            this.numColCam.Size = new System.Drawing.Size(120, 24);
+            this.numColCam.TabIndex = 51;
+            this.numColCam.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // label4
+            // 
+            this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label4.Location = new System.Drawing.Point(3, 47);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(100, 20);
+            this.label4.TabIndex = 50;
+            this.label4.Text = "Row Camera:";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label5
+            // 
+            this.label5.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label5.Location = new System.Drawing.Point(3, 12);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(91, 20);
+            this.label5.TabIndex = 49;
+            this.label5.Text = "Col Camera:";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
             // MeasureRecipe2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -617,9 +756,6 @@
             this.Size = new System.Drawing.Size(1110, 823);
             this.Load += new System.EventHandler(this.MeasureRecipe2_Load);
             this.panelPage1Setting.ResumeLayout(false);
-            this.panelBaseTool.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgviewCamera)).EndInit();
-            this.panel3.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
@@ -631,6 +767,15 @@
             this.panel2.PerformLayout();
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
+            this.tableLayoutPanel2.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.panelBaseTool.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgviewCamera)).EndInit();
+            this.panel4.ResumeLayout(false);
+            this.panel5.ResumeLayout(false);
+            this.panelPCInfo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.numRowCam)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numColCam)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -639,11 +784,6 @@
 
         private System.Windows.Forms.Panel panelPage1Setting;
         private System.Windows.Forms.Label lbTitleName;
-        private System.Windows.Forms.Button btnRefreshRecipe;
-        private System.Windows.Forms.Panel panelBaseTool;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button btnAddToolBase;
-        private System.Windows.Forms.DataGridView dgviewCamera;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.GroupBox groupBox1;
@@ -682,5 +822,19 @@
         private System.Windows.Forms.NumericUpDown numInterval;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnApply;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panelBaseTool;
+        private System.Windows.Forms.DataGridView dgviewCamera;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Button btnRefreshRecipe;
+        private System.Windows.Forms.Button btnAddToolBase;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel panelPCInfo;
+        private System.Windows.Forms.Button btnConfigScreen;
+        private System.Windows.Forms.NumericUpDown numRowCam;
+        private System.Windows.Forms.NumericUpDown numColCam;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
     }
 }
