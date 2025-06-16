@@ -104,10 +104,7 @@ namespace DKVN
         {
             btnRefreshRecipe_Click(null, null);
         }
-        private void btnRefreshRecipe_Click(object sender, EventArgs e)
-        {
-            UpdateDataBase();
-        }
+
         
         private void UncheckControl(CheckBox control)
         {
@@ -432,14 +429,6 @@ namespace DKVN
             //}
         }
 
-        private void btnAddToolBase_Click(object sender, EventArgs e)
-        {
-            ClassSystemConfig.Ins.m_CameraList.Show();
-            ClassSystemConfig.Ins.m_CameraList.ShowOnScreen();
-            ClassSystemConfig.Ins.m_ClsFunc.SaveLog(ClassFunction.SAVING_LOG_TYPE.HANDLER_CLICKED,
-                                                    "Clicked Camera List Add",
-                                                    ClassSystemConfig.Ins.m_ClsCommon.IsSaveLog_Local, true);
-        }
         private void AddNewRowData1(string name, string type)
         {
             // Add To DataGridView
@@ -754,6 +743,20 @@ namespace DKVN
             main.Col = Convert.ToInt32(numColCam.Value);
             main.Row = Convert.ToInt32(numRowCam.Value);
             main.LayoutSpreadView();
+        }
+
+        private void btnAddToolBase_Click(object sender, EventArgs e)
+        {
+            ClassSystemConfig.Ins.m_CameraList.Show();
+            ClassSystemConfig.Ins.m_CameraList.ShowOnScreen();
+            ClassSystemConfig.Ins.m_ClsFunc.SaveLog(ClassFunction.SAVING_LOG_TYPE.HANDLER_CLICKED,
+                                                    "Clicked Camera List Add",
+                                                    ClassSystemConfig.Ins.m_ClsCommon.IsSaveLog_Local, true);
+        }
+
+        private void btnRefreshRecipe_Click(object sender, EventArgs e)
+        {
+            UpdateDataBase();
         }
     }
 

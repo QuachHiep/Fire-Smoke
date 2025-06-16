@@ -29,6 +29,7 @@ namespace DKVN
             m_CameraList = new FormCameraList();
             m_SettingParam = new MeasureRecipe2();
             m_FrmParamCamera = new FormParamCamera();
+            mFrmConfirm = new FormConfirmVision();
             m_FrmLogView = new FormLogView();
             //VDKFrame.DKLicense.Licensing.PairLicense("CEa2S.MD3qD.HP4lK.G25fc");
         }
@@ -43,6 +44,7 @@ namespace DKVN
         public MeasureRecipe2 m_SettingParam;
         public FormParamCamera m_FrmParamCamera;
         public FormLogView m_FrmLogView;
+        public FormConfirmVision mFrmConfirm;
         #endregion
 
         #region Config Varibales

@@ -40,7 +40,6 @@ RUN pip install tensorrt
 # Copy mã nguồn và file requirements vào container
 COPY APIFast_b64.py ./APIFast_b64.py
 COPY best.pt ./best.pt
-COPY convert_model.py ./convert_model.py
 COPY requirements.txt ./requirements.txt
 
 # Cài đặt các thư viện Python từ requirements.txt
@@ -51,5 +50,5 @@ EXPOSE 8000
 
 # Chạy ứng dụng FastAPI với Uvicorn
 #CMD ["uvicorn", "APIFast_b64:app", "--host", "0.0.0.0", "--port", "8000"]
-CMD ["bash", "-c", "python3 convert_model.py && uvicorn APIFast_b64:app --host 0.0.0.0 --port 8000"]
+CMD ["bash", "-c", "python3 uvicorn APIFast_b64:app --host 0.0.0.0 --port 8000"]
 

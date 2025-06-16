@@ -112,6 +112,7 @@ namespace DemoFire
             StopLoadingForm();
             UpdateCameraLogInvoke(this);
 
+
             this.WindowState = FormWindowState.Maximized;
         }
 

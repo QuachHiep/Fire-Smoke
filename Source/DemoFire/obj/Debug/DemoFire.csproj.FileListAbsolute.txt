@@ -253,3 +253,4 @@ D:\build_C#\Fire_demo\DemoFire.exe.config
 D:\build_C#\Fire_demo\DemoFire.exe
 D:\build_C#\Fire_demo\DemoFire.pdb
 D:\DeepLearning\Working\fire-smoke-detection\Source\DemoFire\obj\Debug\DemoFire.csproj.Up2Date
+D:\DeepLearning\Working\fire-smoke-detection\Source\DemoFire\obj\Debug\DKVN.FormConfirmVision.resources

@@ -236,6 +236,12 @@
     <Compile Include="FormCameraList.Designer.cs">
       <DependentUpon>FormCameraList.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormConfirmVision.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConfirmVision.Designer.cs">
+      <DependentUpon>FormConfirmVision.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormLoading.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -291,6 +297,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormCameraList.resx">
       <DependentUpon>FormCameraList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConfirmVision.resx">
+      <DependentUpon>FormConfirmVision.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormLogIn.resx">
       <DependentUpon>FormLogIn.cs</DependentUpon>

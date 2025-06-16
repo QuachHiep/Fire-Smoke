@@ -67,7 +67,7 @@
             this.btnCameraLive = new System.Windows.Forms.Button();
             this.btnHideSetup = new System.Windows.Forms.Button();
             this.btnSpread = new System.Windows.Forms.Button();
-            this.lbIndexControl = new System.Windows.Forms.Label();
+            this.btnIgnore = new System.Windows.Forms.Button();
             this.panelBackground.SuspendLayout();
             this.panelMain.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -456,7 +456,7 @@
             this.panelHeader.Controls.Add(this.btnCameraLive);
             this.panelHeader.Controls.Add(this.btnHideSetup);
             this.panelHeader.Controls.Add(this.btnSpread);
-            this.panelHeader.Controls.Add(this.lbIndexControl);
+            this.panelHeader.Controls.Add(this.btnIgnore);
             this.panelHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panelHeader.Location = new System.Drawing.Point(0, 0);
@@ -469,9 +469,9 @@
             this.panel1.Controls.Add(this.btnVideoPredict);
             this.panel1.Controls.Add(this.lbNameControl);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(36, 0);
+            this.panel1.Location = new System.Drawing.Point(62, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(740, 26);
+            this.panel1.Size = new System.Drawing.Size(714, 26);
             this.panel1.TabIndex = 49;
             // 
             // btnVideoPredict
@@ -485,13 +485,12 @@
             this.btnVideoPredict.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVideoPredict.ForeColor = System.Drawing.Color.White;
             this.btnVideoPredict.Image = ((System.Drawing.Image)(resources.GetObject("btnVideoPredict.Image")));
-            this.btnVideoPredict.Location = new System.Drawing.Point(692, 0);
+            this.btnVideoPredict.Location = new System.Drawing.Point(666, 0);
             this.btnVideoPredict.Name = "btnVideoPredict";
             this.btnVideoPredict.Size = new System.Drawing.Size(48, 26);
             this.btnVideoPredict.TabIndex = 49;
             this.btnVideoPredict.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnVideoPredict.UseVisualStyleBackColor = true;
-            this.btnVideoPredict.Visible = false;
             this.btnVideoPredict.Click += new System.EventHandler(this.btnVideoPredict_Click);
             // 
             // lbNameControl
@@ -502,7 +501,7 @@
             this.lbNameControl.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.lbNameControl.Location = new System.Drawing.Point(0, 0);
             this.lbNameControl.Name = "lbNameControl";
-            this.lbNameControl.Size = new System.Drawing.Size(740, 26);
+            this.lbNameControl.Size = new System.Drawing.Size(714, 26);
             this.lbNameControl.TabIndex = 2;
             this.lbNameControl.Text = "                  Name";
             this.lbNameControl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -565,18 +564,20 @@
             this.btnSpread.UseVisualStyleBackColor = true;
             this.btnSpread.Click += new System.EventHandler(this.btnSpread_Click);
             // 
-            // lbIndexControl
+            // btnIgnore
             // 
-            this.lbIndexControl.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lbIndexControl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbIndexControl.ForeColor = System.Drawing.Color.AliceBlue;
-            this.lbIndexControl.Location = new System.Drawing.Point(0, 0);
-            this.lbIndexControl.Name = "lbIndexControl";
-            this.lbIndexControl.Size = new System.Drawing.Size(36, 26);
-            this.lbIndexControl.TabIndex = 0;
-            this.lbIndexControl.Text = "[0]";
-            this.lbIndexControl.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbIndexControl.Visible = false;
+            this.btnIgnore.BackColor = System.Drawing.Color.Red;
+            this.btnIgnore.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnIgnore.FlatAppearance.BorderSize = 0;
+            this.btnIgnore.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnIgnore.Location = new System.Drawing.Point(0, 0);
+            this.btnIgnore.Name = "btnIgnore";
+            this.btnIgnore.Size = new System.Drawing.Size(62, 26);
+            this.btnIgnore.TabIndex = 50;
+            this.btnIgnore.Text = "Ignore";
+            this.btnIgnore.UseVisualStyleBackColor = false;
+            this.btnIgnore.Visible = false;
+            this.btnIgnore.Click += new System.EventHandler(this.btnIgnore_Click);
             // 
             // UserCtrlDisplay
             // 
@@ -611,7 +612,6 @@
         private System.Windows.Forms.Panel panelBackground;
         private System.Windows.Forms.Panel panelMain;
         private System.Windows.Forms.Panel panelHeader;
-        private System.Windows.Forms.Label lbIndexControl;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Panel panelMainDisplay;
         private System.Windows.Forms.Panel panelMenu;
@@ -646,5 +646,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txbRTSP_Link;
         private System.Windows.Forms.Button btnVideoPredict;
+        private System.Windows.Forms.Button btnIgnore;
     }
 }

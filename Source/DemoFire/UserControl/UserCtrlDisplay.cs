@@ -23,6 +23,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WebSocketSharp;
+using static Google.Protobuf.Reflection.SourceCodeInfo.Types;
 
 namespace DKVN
 {
@@ -34,7 +35,6 @@ namespace DKVN
         private int m_iIndexControl;
         private DateTime _timeWarning;
         private VideoCaptureUser capture;
-        private bool m_bInitSDK;
         private string camera_Name = "";
         private uint iLastErr = 0;
         private Int32 m_lUserID = -1;
@@ -42,6 +42,7 @@ namespace DKVN
         public bool _Disposed = false;
         public bool _Warning = false;
         private bool m_bRecord = false;
+        public System.Drawing.Point locationConfirm = new System.Drawing.Point();
 
         private bool bSpreadOut = false;
         string rtspUrl = "";
@@ -56,8 +57,6 @@ namespace DKVN
         Dictionary<int, Task> videoThreads = new Dictionary<int, Task>();
         Dictionary<int, CancellationTokenSource> cancellationTokens = new Dictionary<int, CancellationTokenSource>();
 
-        ThreadMonitor monitor = new ThreadMonitor();
-
         MySqlConnection connection = null;
 
         #endregion
@@ -71,8 +70,6 @@ namespace DKVN
             m_indexView = indexView-1;
             lbNameControl.Text = controlName;
             camera_Name = controlName.Trim();
-            lbIndexControl.Text = (indexCtrl >= 0) ? ((indexCtrl + 1).ToString()) : "";
-            lbIndexControl.ForeColor = (Color.DodgerBlue);
             main = obj;
             //m_bInitSDK = CHCNetSDK.NET_DVR_Init();
             //if (m_bInitSDK == false)
@@ -89,6 +86,9 @@ namespace DKVN
         {
             //monitor.StartMonitoring(5000); // Ghi thông tin luồng mỗi 2 giây
             connection = new MySqlConnection(ClassSystemConfig.Ins.m_ClsCommon.connectionString);
+            System.Drawing.Point location = panel2.PointToScreen(System.Drawing.Point.Empty);
+            locationConfirm.X = location.X - ClassSystemConfig.Ins.mFrmConfirm.Size.Width / 2;
+            locationConfirm.Y = location.Y - ClassSystemConfig.Ins.mFrmConfirm.Size.Height;
         }
 
         #region Proccess OLD
@@ -298,7 +298,7 @@ namespace DKVN
                             return;
                         if (result.Count == 0)
                         {
-                            _Warning = false;
+                            //_Warning = false;
                             goto END;
                         }
                         //else
@@ -324,6 +324,7 @@ namespace DKVN
                             AddCameraLogData(camera_Name, label, image_graphic_path);
                             main.UpdateCameraLogInvoke(this);
                             _Warning = true;
+                            btnIgnore.Visible = true;
                             _timeWarning = DateTime.Now;
                         }
                     }
@@ -764,7 +765,7 @@ namespace DKVN
                             return;
                         if (result.Count == 0)
                         {
-                            _Warning = false;
+                            //_Warning = false;
                             goto END;
                         }
                         foreach (var detection in result)
@@ -786,10 +787,12 @@ namespace DKVN
                             AddCameraLogData(camera_Name, label, image_graphic_path);
                             main.UpdateCameraLogInvoke(this);
                             _Warning = true;
+                            btnIgnore.Visible = true;
                             _timeWarning = DateTime.Now;
                         }
                     }
                     #endregion
+
                     END:
                         UI_Screen(frame.ToBitmap());
                         frameIndex++;
@@ -917,6 +920,18 @@ namespace DKVN
         {
             _Disposed = true;
             capture.Release();
+        }
+
+        public void Ignore_Warning()
+        {
+            _Warning = false;
+            btnIgnore.Visible = false;
+            ControlTextInvoke(lbNameControl, camera_Name);
+            panelHeader.BackColor = Color.Linen;
+            if (m_Thread_Warning != null)
+            {
+                m_Thread_Warning.Abort();
+            }
         }
 
         #endregion
@@ -1200,24 +1215,24 @@ namespace DKVN
         }
         DateTime m_TimeTogle = DateTime.Now;
         private bool isRed = false;
-        private bool b_tmpWarning = false;
+        public bool b_tmpWarning = false;
         private void Thread_Warning()
         {
             while (true)
             {
-                var elapsedTime = (DateTime.Now - _timeWarning).TotalMilliseconds;
+                //var elapsedTime = (DateTime.Now - _timeWarning).TotalMilliseconds;
                 WarningGraphic();
-                // Nếu đã vượt quá 2 giây và x vẫn là false
-                if (elapsedTime >= 2000 && !_Warning)
-                {
-                    b_tmpWarning = false;// Tắt hàm Warning
-                }
+                //// Nếu đã vượt quá 2 giây và x vẫn là false
+                //if (elapsedTime >= 2000 && !_Warning)
+                //{
+                //    b_tmpWarning = false;// Tắt hàm Warning
+                //}
                 Thread.Sleep(200);
             }
         }
         private void WarningGraphic()
         {
-            if (_Warning || b_tmpWarning)
+            if (_Warning)
             {
                 var delta = (DateTime.Now - m_TimeTogle).TotalMilliseconds;
                 if (delta >= 1000)
@@ -1241,8 +1256,8 @@ namespace DKVN
                 panelHeader.BackColor = Color.Linen;
             }
 
-            _Warning = false;
-            b_tmpWarning = true;
+            //_Warning = false;
+            //b_tmpWarning = true;
         }
         #endregion
 
@@ -1292,5 +1307,11 @@ namespace DKVN
         }
         #endregion
 
+        private void btnIgnore_Click(object sender, EventArgs e)
+        {
+            ClassSystemConfig.Ins.mFrmConfirm.InitializeUI(m_countView, m_iIndexControl);
+            ClassSystemConfig.Ins.mFrmConfirm.Location = new System.Drawing.Point(locationConfirm.X, locationConfirm.Y);
+            ClassSystemConfig.Ins.mFrmConfirm.ShowDialog();
+        }
     }
 }
